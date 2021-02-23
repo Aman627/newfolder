@@ -4,7 +4,8 @@ class Testing extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      body: Text('New FOlder'),
+      child: Scaffold(
+        body: Text('this is testing!!'),
       ),
     );
   }
